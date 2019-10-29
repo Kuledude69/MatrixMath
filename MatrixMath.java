@@ -7,7 +7,6 @@
  */
 public class MatrixMath
 {
-    // instance variables - replace the example below with your own
     private int[][] data;
 
     /**
@@ -16,6 +15,7 @@ public class MatrixMath
     public MatrixMath(int[][] data)
     {
         // initialise instance variables
+        int[][] data = data; 
        
     }
 
@@ -26,8 +26,17 @@ public class MatrixMath
      * @return    int[]
      */
     public int[] rowSum()
-    {
-        return null;
+    { int[] sumRow = new int[data.length];
+        for (int i = 0; i < data.length; i++)
+          {
+             int sum=0;
+             for (int j=0; j<data[i].length; j++)
+             { 
+                 sum += data[i][j];
+             }
+             sumRow[i]=sum;
+    }
+        return sumRow;
     }
     
         /**
