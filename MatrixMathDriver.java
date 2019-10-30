@@ -19,8 +19,8 @@ public class MatrixMathDriver
 		 * Use Arrays.toString on the results below
 		 */
         System.out.println(Arrays.toString(mathA.rowSum()));
-        mathA.rowAve();
-        mathA.colSum();
+        System.out.println(Arrays.toString(mathA.rowAve()));
+        System.out.println(Arrays.toString(mathA.colSum()));
         mathA.colAve();
         
         MatrixMath mathB = new MatrixMath(B);

@@ -15,5 +15,5 @@ comment4.target=int[]\ colSum()
 comment4.text=\r\n\ Find\ the\ sum\ of\ all\ the\ numbers\ in\ column\r\n\ \r\n\r\n\ @return\ \ \ \ int[]\ \r\n
 comment5.params=
 comment5.target=double[]\ colAve()
-comment5.text=\r\n\ Find\ the\ average\ of\ all\ the\ values\ in\ each\ row\r\n\r\n\ @return\ \ \ \ int[]\ \r\n
+comment5.text=\r\n\ Find\ the\ average\ of\ all\ the\ values\ in\ each\ column\r\n\r\n\ @return\ \ \ \ int[]\ \r\n
 numComments=6
